@@ -1,6 +1,6 @@
-# Wictor Dev Portfolio
+# Jhon Wictor Dev Portfolio
 
-Static portfolio website for Wictor Dev, built with HTML and CSS to showcase services, selected work, and contact entry points in a lightweight GitHub Pages-ready format.
+Static portfolio website for Jhon Wictor Dev, built with HTML and CSS to showcase services, selected work, and contact entry points in a lightweight GitHub Pages-ready format.
 
 ## Live Site
 
