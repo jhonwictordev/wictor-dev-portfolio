@@ -582,6 +582,27 @@ h1 {
   font-weight: 600;
 }
 
+.chart-project-link {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 10px;
+  color: inherit;
+  transition: color 180ms ease;
+}
+
+.chart-project-link small {
+  color: var(--accent);
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.chart-project-link:hover,
+.chart-project-link:focus-visible {
+  color: var(--text);
+}
+
 .chart-track {
   height: 9px;
   overflow: hidden;
