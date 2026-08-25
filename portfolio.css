@@ -722,7 +722,7 @@ h1 {
 
 .whatsapp-float {
   position: fixed;
-  left: max(20px, env(safe-area-inset-left));
+  right: max(20px, env(safe-area-inset-right));
   bottom: max(20px, env(safe-area-inset-bottom));
   z-index: 70;
   display: grid;
@@ -824,7 +824,7 @@ h1 {
   }
 
   .whatsapp-float {
-    left: max(16px, env(safe-area-inset-left));
+    right: max(16px, env(safe-area-inset-right));
     bottom: max(16px, env(safe-area-inset-bottom));
     width: 52px;
     height: 52px;
