@@ -85,17 +85,18 @@ button:focus-visible {
 .brand-logo {
   position: relative;
   display: inline-block;
-  width: 170px;
-  height: 58px;
-  flex: 0 0 170px;
+  width: 200px;
+  height: 66px;
+  flex: 0 0 200px;
   overflow: hidden;
 }
 
 .brand-logo img {
   position: absolute;
-  top: -57px;
+  top: -67px;
   left: 0;
-  width: 170px;
+  display: block;
+  width: 200px;
   max-width: none;
   height: auto;
 }
@@ -835,14 +836,14 @@ h1 {
   }
 
   .brand-logo {
-    width: 140px;
-    height: 50px;
-    flex-basis: 140px;
+    width: 150px;
+    height: 52px;
+    flex-basis: 150px;
   }
 
   .brand-logo img {
-    top: -47px;
-    width: 140px;
+    top: -50px;
+    width: 150px;
   }
 
   .header-button {
