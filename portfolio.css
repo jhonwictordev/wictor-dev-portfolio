@@ -80,32 +80,36 @@ button:focus-visible {
 .brand {
   display: inline-flex;
   align-items: center;
-  gap: 12px;
-  font-size: 18px;
-  font-weight: 700;
-  letter-spacing: -0.02em;
 }
 
 .brand-logo {
   position: relative;
   display: inline-block;
-  width: 78px;
-  height: 36px;
-  flex: 0 0 78px;
+  width: 170px;
+  height: 58px;
+  flex: 0 0 170px;
   overflow: hidden;
 }
 
 .brand-logo img {
   position: absolute;
-  top: -69px;
-  left: -61px;
-  width: 200px;
+  top: -57px;
+  left: 0;
+  width: 170px;
   max-width: none;
   height: auto;
 }
 
 .brand-name {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
   white-space: nowrap;
+  border: 0;
 }
 
 .main-nav {
@@ -830,16 +834,15 @@ h1 {
     height: 52px;
   }
 
-  .brand-name {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    padding: 0;
-    margin: -1px;
-    overflow: hidden;
-    clip: rect(0, 0, 0, 0);
-    white-space: nowrap;
-    border: 0;
+  .brand-logo {
+    width: 140px;
+    height: 50px;
+    flex-basis: 140px;
+  }
+
+  .brand-logo img {
+    top: -47px;
+    width: 140px;
   }
 
   .header-button {
